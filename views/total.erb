@@ -1,0 +1,12 @@
+<h3> The total is: </h3>
+
+
+<% if @operation == "addition" %>
+	<%= @total_add %>
+<% elsif @operation == "subtraction" %>
+	<%= @total_sub %>
+<% elsif @operation == "multiplication" %>
+	<%= @total_mul %>
+<% elsif @operation == "division" %>
+	<%= @total_div %>
+<% end %>	
